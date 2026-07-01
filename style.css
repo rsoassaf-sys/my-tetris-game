@@ -1,0 +1,12 @@
+body { background: #202028; color: #fff; text-align: center; }
+canvas { border: solid .2em #fff; height: 90vh; }
+/* هذا يمنع ظهور الإطار المزعج عند الضغط */
+button, div, canvas {
+    outline: none !important;
+}
+
+/* لمنع المتصفح من تحديد العناصر عند تحريك الأسهم */
+canvas {
+    user-select: none;
+    -webkit-user-select: none;
+}
